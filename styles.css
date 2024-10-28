@@ -224,3 +224,20 @@ header img {
     display: flex;
     justify-content: space-between;
 }
+
+header h1{
+    padding: 10px;
+    font-size: 80px;
+    color: #ffffb6;font-size: 80px;
+    margin: 0;
+}
+
+.logo {
+    height: 80px;
+    border: none;
+}
+
+.brand{
+    display: flex;
+    justify-content: space-between;
+}
