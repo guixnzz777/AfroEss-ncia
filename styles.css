@@ -167,7 +167,7 @@ footer {
     font-size: 20px;
     display: flex;
     gap: 20px;
-    margin-left: 870px;
+    margin-left: 58%;
     align-items: center;
 }
 
@@ -175,7 +175,7 @@ footer {
     font-size: 20px;
     display: flex;
     gap: 20px;
-    margin-left: 30px;
+    margin-left: 3%;
     align-items: center;
     
 }
@@ -190,7 +190,6 @@ header img {
 
 .icones{
     justify-content: center;
-   
     align-items: center;
     
 }
@@ -198,8 +197,8 @@ header img {
 .ico-rod{
     display: flex; 
     padding-right: 0;
-    padding-left: 110px;
-    padding-top: 40px;
+    padding-left: 7%;
+    padding-top: 2.5%;
     align-items: center;
 }
 
