@@ -5,7 +5,7 @@ body {
     font-style: normal;
     margin: 0px;
     max-width: 100%;
-     height: auto;
+    height: auto;
 }
 
 main {
@@ -24,7 +24,7 @@ header {
     font-size: 80px;
     color: #ffffb6;
     display: flex;
-
+    justify-content: space-between;
 }
 
 .destaque {
@@ -146,7 +146,7 @@ img {
     font-family: "Noto Serif", serif;
     background-color: #ffffb6;
     color: #402717;
-    height: 400px;
+    height: auto;
     margin: 0px;
     font-size: 30px;
     font-weight: bolder;
@@ -168,9 +168,9 @@ footer {
 .icon-container-1 {
     font-size: 20px;
     display: flex;
-    gap: 20px;
-    margin-left: 50%;
+ 
     align-items: center;
+    float: right;
 }
 
 .icon-container-2 {
@@ -215,4 +215,11 @@ header img {
 
 .do{
     padding-left: 500px;
+}
+
+
+.ref{
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
 }
