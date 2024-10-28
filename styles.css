@@ -4,6 +4,10 @@ body {
     font-family: "Bebas Neue", sans-serif;
     font-style: normal;
     margin: 0px;
+    max-width: 100%;
+    overflow-x: hidden;
+    max-height: 100%;
+    overflow-y: hidden;
 }
 
 main {
