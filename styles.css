@@ -29,8 +29,8 @@ header {
 
 .destaque {
     background: #a0653d;
-    padding-bottom: 25px;
-    padding-top: 15px;
+    padding-bottom: 35px;
+    padding-top: 35px;
     padding-left: 25px;
     padding-right: 25px;
     display: flex;
@@ -38,7 +38,7 @@ header {
 }
 
 .text {
-    margin-right: 15%;
+    margin-right: 2%;
 }
 
 h1 {
@@ -51,11 +51,12 @@ h1 {
     color: #ffffb6;
     font-size: 45px;
     margin-top: 5px;
+    font-family: "Bebas Neue", sans-serif;
 }
 
 img {
     height: 200px;
-    border-radius: 3%;
+    border-radius: 4%;
 }
 
 .lista-videos h2 {
@@ -240,4 +241,8 @@ header h1{
 .brand{
     display: flex;
     justify-content: space-between;
+}
+
+iframe{
+    max-width: auto;
 }
