@@ -244,6 +244,5 @@ header h1{
 }
 
 iframe{
-    max-width: auto;
-    max-height: auto;
+    width: 30em;
 }
