@@ -211,6 +211,7 @@ iframe{
 }
 
 .sidebar ul li a:hover {
+    border-radius: 10px;
     padding: 5%;
     background-color: #575757;
 }
