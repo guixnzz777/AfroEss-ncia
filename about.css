@@ -38,25 +38,88 @@ header {
     padding-left: 1%;
     padding-right: 10%;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    justify-items: center;
 }
 
+.ll{
+    margin-left: -20%;
+    margin-right: -10%;
+    display: flex;
+    justify-content: center;
+    align-items: normal;
+}
+
+.ll img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -30%;
+    height: 90%;
+}
 
 .text {
+    margin-left: 5%;
     margin-right: 3%;
 }
 
 h1 {
     color: #fff;
+    font-size: 250%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+
+.carousel{
+    display: flex;
+    overflow-x: auto; 
+    scroll-behavior: smooth;
+    gap: 12px;
+    padding: 10px;
+    padding-top: 3%;
+}
+
+.ig{
     font-size: 350%;
-    margin-bottom: 5%;
+    text-align: center;
+    text-decoration: none;
+}
+a:-webkit-any-link {
+text-decoration: none;
+}
+
+.carousel::-webkit-scrollbar {
+    display: none;
+}
+
+.carousel blockquote {
+    flex: 0 0 300px; 
+    border: 1px solid #ccc;
+    background: #fff;
 }
 
 .destaque p {
+    padding-right: 30%;
     color: #ffffb6;
-    font-size: 210%;
+    font-size: 120%;
     margin-top: 5px;
-    font-family: "Bebas Neue", sans-serif;
+    font-family: "Noto Serif", serif;
+}
+
+.destaque h1{
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+}
+
+.obj p{
+    font-size: 150%;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+.obj h1{
+    text-align: center;
+    color: #ffffb6;
+    font-size: 350%;
 }
 
 img {
@@ -129,7 +192,6 @@ footer {
     padding-right: 7%;
     padding-left: 7%;
     padding-top: 2.5%;
-    display: flex;
     justify-content: space-between;
 }
 
@@ -173,9 +235,8 @@ iframe{
     border-radius: 3%;
 }
 
-.inst{
-    display: ruby-text;
-}
+
+
 
 /* Menu Lateral */
 .sidebar {
